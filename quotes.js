@@ -1,30 +1,71 @@
 const localQuotes = [
-        {
-            "quote": "Entschuldigung, was wollten Sie mich fragen? Ach ja, dieser blöde Plastikbehälter, den ich dich bitten wollte, zu kaufen. Weißt du, Flusssäure frisst sich nicht durch Plastik, aber sie löst Metall, Stein, Glas und Keramik auf. Das war's also.",
-            "Autor": "Walter White"
-        },
-        {
-            "quote": "Alles klar, ich habe jetzt das sprechende Kissen... Okay?",
-            "author": "Walter White"
-        },
-        {
-            "quote": "Wir haben versucht, dich zu vergiften. Wir haben versucht, dich zu vergiften, weil du ein wahnsinniges, degeneriertes Stück Dreck bist und den Tod verdienst.",
-            "Autor": "Walter White"
-        },
-        {
-            "quote": "Na gut, ich sag euch was. Ihr zieht es euch beide sofort aus dem Hintern, oder ich schnappe mir eine Taschenlampe und eine Zange und gehe auf Erkundungstour.",
-            "author": "Jesse Pinkman"
-        },
-        {
-            "quote": "Ich glaube nicht, dass Angst ein wirksamer Motivator ist. Ich will Investitionen. Im Moment bin ich einfach an einem Zeitrahmen interessiert.",
-            "author": "Gustavo Fring"
-        },
-        {
-            "quote": "Wenn man Kinder hat, hat man immer Familie. Sie werden immer deine Priorität sein, deine Verantwortung. Und ein Mann, ein Mann sorgt vor. Und er tut es auch dann, wenn er nicht geschätzt oder respektiert oder sogar geliebt wird. Er steht einfach auf und tut es. Weil er ein Mann ist.",
-            "autor": "Gustavo Fring"
-        },
-        {
-            "quote": "Hey, sag deinem Deppen-Schwager, er soll auf das Licht zugehen.",
-            "author": "Jesse Pinkman"
-        }
-    ];
+    { "text": "Bis 2025 werden voraussichtlich mehr als 75 Milliarden IoT-Geräte weltweit im Einsatz sein.", "autor": "Anonym" },
+    { "text": "IBM hat 2023 den ersten kommerziell verfügbaren Quantencomputer, den IBM Q System Two, angekündigt.", "autor": "Anonym" },
+    { "text": "Bitcoin, die erste Kryptowährung, wurde 2008 von einer Person oder Gruppe unter dem Pseudonym Satoshi Nakamoto erfunden.", "autor": "Anonym" },
+    { "text": "Amazon Web Services (AWS) wurde 2006 eingeführt und hat die Cloud-Computing-Industrie maßgeblich geprägt.", "autor": "Anonym" },
+    { "text": "5G-Netzwerke bieten im Vergleich zu 4G eine bis zu 100-mal schnellere Geschwindigkeit und verbesserte Netzwerkkapazitäten.", "autor": "Anonym" },
+    { "text": "Im Jahr 2022 wurde die weltweite durchschnittliche Internetgeschwindigkeit auf 61,5 Mbps erhöht.", "autor": "Anonym" },
+    { "text": "Die erste E-Mail wurde 1971 von Ray Tomlinson verschickt.", "autor": "Anonym" },
+    { "text": "Der erste 1-GB-Festplattenlaufwerk wurde 1980 von IBM hergestellt und wog über 500 Pfund.", "autor": "Anonym" },
+    { "text": "Der erste öffentliche Webbrowser, genannt WorldWideWeb, wurde 1990 von Tim Berners-Lee entwickelt.", "autor": "Anonym" },
+    { "text": "Der Begriff 'Cloud Computing' stammt ursprünglich aus den 1960er Jahren und wurde von Dr. L.J. Miller in einem Vortrag verwendet.", "autor": "Anonym" },
+    { "text": "Linux, ein freies und quelloffenes Betriebssystem, wurde 1991 von Linus Torvalds entwickelt.", "autor": "Anonym" },
+    { "text": "Der erste kommerzielle Mobilfunkanruf wurde 1973 von Martin Cooper, einem Ingenieur bei Motorola, getätigt.", "autor": "Anonym" },
+    { "text": "Der erste Virus für PC-Systeme, Brain, wurde 1986 von zwei Brüdern in Pakistan entwickelt.", "autor": "Anonym" },
+    { "text": "Der Durchbruch in der optischen Datenspeichertechnologie ermöglichte es 2023, 500 Terabyte Daten auf einem optischen Datenträger zu speichern.", "autor": "Anonym" },
+    { "text": "Apple wurde 1976 von Steve Jobs, Steve Wozniak und Ronald Wayne gegründet.", "autor": "Anonym" },
+    { "text": "Der erste 1-TB-Speicherstick wurde 2013 von Kingston Technology eingeführt.", "autor": "Anonym" },
+    { "text": "Die erste vollständig digitale Generation, die Generation Z, ist durch die Verwendung digitaler Technologien seit ihrer Kindheit geprägt.", "autor": "Anonym" },
+    { "text": "Die erste kommerzielle Festplatte, die IBM 350, wurde 1956 veröffentlicht und konnte fünf Millionen Zeichen speichern.", "autor": "Anonym" },
+    { "text": "Der erste Online-Kauf erfolgte 1994, als eine CD von Sting über das Internet verkauft wurde.", "autor": "Anonym" },
+    { "text": "Der erste erfolgreiche 3D-Druck einer Niere erfolgte 2020 an der Universität Tel Aviv.", "autor": "Anonym" },
+    { "text": "Das erste bekannte Computerprogrammierproblem wurde 1843 von Ada Lovelace beschrieben.", "autor": "Anonym" },
+    { "text": "Das erste bekannte Computervirus, das Creeper-Virus, wurde 1971 entwickelt und auf ARPANET, einem Vorläufer des Internets, getestet.", "autor": "Anonym" },
+    { "text": "Der erste kommerzielle Webserver, CERN httpd, wurde 1990 von Tim Berners-Lee entwickelt.", "autor": "Anonym" },
+    { "text": "Der erste kommerziell vertriebene 5G-fähige Smartphone-Chipsatz, Qualcomm Snapdragon 855, wurde 2019 eingeführt.", "autor": "Anonym" },
+    { "text": "Die erste CD wurde 1982 in Japan von Sony und Philips vorgestellt.", "autor": "Anonym" },
+    { "text": "Der erste öffentlich zugängliche Videostream wurde 1993 von der Band Severe Tire Damage über das Internet gesendet.", "autor": "Anonym" },
+    { "text": "Der erste Suchmaschinenalgorithmus von Google wurde 1998 von Larry Page und Sergey Brin entwickelt.", "autor": "Anonym" },
+    { "text": "Der erste kommerzielle Einsatz von RFID (Radio-Frequency Identification) erfolgte in den späten 1960er Jahren.", "autor": "Anonym" },
+    { "text": "Das erste bekannte Computerhacken fand 1903 statt, als Guglielmo Marconi's Drahtloser Telegraf angegriffen wurde.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle GPS-System wurde 1989 in den USA eingeführt.", "autor": "Anonym" },
+    { "text": "Der erste 8-Megapixel-Kamerachip wurde 2006 von Sony eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste Android-Smartphone, das HTC Dream, wurde 2008 veröffentlicht.", "autor": "Anonym" },
+    { "text": "Das erste bekannte Computerkriminalitätsgesetz wurde 1970 in den USA verabschiedet.", "autor": "Anonym" },
+    { "text": "Der erste kommerzielle Breitband-Internetdienst wurde 1996 von Telstra in Australien eingeführt.", "autor": "Anonym" },
+    { "text": "Der erste kommerzielle ISP (Internetdienstanbieter), Telenet, wurde 1974 in Belgien gegründet.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle 3D-Druckunternehmen, 3D Systems, wurde 1986 gegründet.", "autor": "Anonym" },
+    { "text": "Das erste Smartphone, das einen Fingerabdrucksensor hatte, war der Motorola Atrix 4G im Jahr 2011.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Virtual-Reality-Headset, das Oculus Rift, wurde 2016 von Oculus VR veröffentlicht.", "autor": "Anonym" },
+    { "text": "Das erste Computeranimationssystem, genannt Sketchpad, wurde 1963 von Ivan Sutherland entwickelt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle OLED-Display wurde 2003 von Kodak und Sanyo vorgestellt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle ADSL-Internet wurde 1998 in Deutschland von Deutsche Telekom eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle LTE-Netzwerk wurde 2009 in Norwegen von TeliaSonera eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle WLAN-Netzwerk wurde 1997 in den USA von Lucent Technologies eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle 4K-Fernsehgerät wurde 2012 von LG eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle optische Mausmodell, die Microsoft IntelliMouse, wurde 1999 veröffentlicht.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle 3D-Druckverfahren, Stereolithographie, wurde 1986 von 3D Systems entwickelt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Tablet, das IBM Simon Personal Communicator, wurde 1993 eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Betriebssystem für Personal Computer, MS-DOS, wurde 1981 von Microsoft veröffentlicht.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle CD-ROM-Laufwerk wurde 1985 von Sony und Philips eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Wearable-Gerät, der Casio AT-550 Pulsuhr-Computer, wurde 1984 eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle KI-System zur maschinellen Übersetzung, das Georgetown-IBM-Experiment, wurde 1954 durchgeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Biometrie-Authentifizierungssystem wurde 1968 von der Stanford Research Institute entwickelt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Gigabit-Ethernet wurde 1997 von Cisco Systems eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Multi-Touch-Display wurde 1982 von Nimish Mehta und dem MIT Media Lab entwickelt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle LCD-Farbdisplay wurde 1972 von Sharp entwickelt und veröffentlicht.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Betriebssystem für Smartphones, Symbian OS, wurde 1997 von Symbian Ltd. entwickelt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Smartphone mit einem Touchscreen war der IBM Simon, der 1994 eingeführt wurde.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Spracherkennungssystem, das Hidden Markov Model, wurde 1976 von IBM entwickelt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle KI-System zur medizinischen Diagnose, MYCIN, wurde 1976 entwickelt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Betriebssystem für Smartwatches, WatchOS, wurde 2015 von Apple eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Betriebssystem für Tablets, Apple iOS, wurde 2010 eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle E-Book wurde 1971 von Michael S. Hart digitalisiert und auf ARPANET verteilt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Programm zur Textverarbeitung, WordStar, wurde 1979 von MicroPro International entwickelt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Unternehmen für das Schreiben von Open-Source-Software, Cygnus Solutions, wurde 1989 gegründet.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Cloud-basierte E-Mail-Dienst, Hotmail, wurde 1996 eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Social-Media-Netzwerk, Six Degrees, wurde 1997 eingeführt.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Unternehmen für den Verkauf von Computer-Hardware, Digital Equipment Corporation, wurde 1957 gegründet.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Unternehmen für den Verkauf von Computern, IBM, wurde 1911 gegründet.", "autor": "Anonym" },
+    { "text": "Das erste kommerzielle Unternehmen für den Verkauf von IT-Sicherheitssoftware, McAfee, wurde 1987 gegründet.", "autor": "Anonym" }
+];
