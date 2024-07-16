@@ -28,7 +28,7 @@ function newQuote(){
         qouteAuther.textContent = quote.author;
     }
 
-    if (quote.text.length > 150){
+    if (quote.text.length > 50){
         qouteText.classList.add('long-qoute');
     }else{
         qouteText.classList.remove('long-qoute');
